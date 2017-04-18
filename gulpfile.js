@@ -8,6 +8,8 @@ gulp.task('serve', [], function() {
     });
 
     gulp.watch("./public/**/*.html").on('change', browserSync.reload);
+    gulp.watch("./public/**/*.css").on('change', browserSync.reload);
+
 });
 
 gulp.task('default', ['serve']);
