@@ -25,5 +25,9 @@
     "install": "^0.8.8",
     "npm": "^4.5.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
   }
 }
