@@ -13,3 +13,5 @@ app.listen(app.get('port'), function() {
 app.get('/', function(req, res) {
     res.sendFile(path.resolve(root) + '/index.html');
 });
+
+app.use(express.static('public'));
